@@ -1,0 +1,19 @@
+{
+   "manifest_version": 2,
+   "name": "SlackIgnore",
+   "version": "0.1.0",
+   "description": "Cut down on noisy ppl",
+   "content_scripts": [
+      {
+         "css": [
+            "styles.css"
+         ],
+         "js": [
+            "content.js"
+         ],
+         "matches": [
+            "https://app.slack.com/*"
+         ]
+      }
+   ]
+}
